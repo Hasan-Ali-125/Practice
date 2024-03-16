@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/new.css">
+  <link rel="stylesheet" href="css/scrool.css">
+  <!-- font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <!-- font links  -->
+  <title>Chreey Electronics</title>
+
+</head>
+<body>
+  
+<!-- top navbar -->
+<div class="top-navbar">
+  <p>Welcome To Cheery Electronics</p>
+  <div class="icons">
+    <a href="login.html"><img src="images/login.png" alt="" width="18px">Login</a>
+    <a href="register.html"><img src="images/login.png" alt="" width="18px">Regieter</a>
+  </div>
+</div>
+<!-- top navbar end  -->
+
+<!-- navbar  -->
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html" id="logo"><span id="span1">E</span>Lectronic <span>Shop</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span><img src="images/menue.svg" alt="" width="30px"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="product.html">Products</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Category
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgb(67 0 86);">
+            <li><a class="dropdown-item" href="smart.html">Smart Phone</a></li>
+            <li><a class="dropdown-item" href="camera.html">Cameras</a></li>
+            <li><a class="dropdown-item" href="mouse.html">Gaming Mouse</a></li>
+            <li><a class="dropdown-item" href="ac.html">Ac</a></li>
+            <li><a class="dropdown-item" href="watch.html">Smart Watch</a></li>
+            <li><a class="dropdown-item" href="headphone.html">Headphone</a></li>
+            <li><a class="dropdown-item" href="laptop.html">Laptop </a></li>
+            <li><a class="dropdown-item" href="airpods.html">Airpods</a></li>
+            <li><a class="dropdown-item" href="monitor.html">Monitor</a></li>
+            <li><a class="dropdown-item" href="pc.html">Gaming Pc</a></li>
+            <li><a class="dropdown-item" href="cd.html">CD Playes</a></li>
+            <li><a class="dropdown-item" href="washing.html">Washing Machine</a></li>
+            <li><a class="dropdown-item" href="microwave.html">Microwave</a></li>
+            <li><a class="dropdown-item" href="juicer.html">Juicer</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Us</a>
+        </li>
+            <li class="nav-item">
+             <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+      </ul>
+
+      <a class="nav-linkc" href="#"><i class="fa fa-shopping-cart" style="font-size: 20px; color: white; margin-left: -60px;"></i>
+        <span id="cart-quantity" class="badge bg-primary"></span>
+      </a>
+
+
+      <form class="d-flex" id="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- navbar -->
+
+<!-- home content -->
+<section class="home">
+<div class="content">
+  <h1><span>Electronic Products</span>
+  <br>
+  Up To <span id="span2">50%</span>Off
+  </h1>
+  <p>"Welcome to Cheery Electronics, your one-stop destination for cutting-edge technology and exceptional service. Discover a world of innovation with our extensive range of electronics, from smartphones and laptops to home entertainment systems and accessories. Shop confidently knowing that each product is carefully selected to meet your needs, backed by our commitment to quality and customer satisfaction. Join us in embracing the future of electronics, right here at Cheery Electronics."
+  </p>
+<div class="btn"><button>Shop Now</button></div>
+</div>
+
+<div class="img">
+  <img src="images/background.png" alt="">
+</div>
+</section>
+<!-- home content end  -->
+
+<!-- product cards -->
+<div class="container" id="product-cards">
+<h1 class="text-center">PRODUCTS</h1>
+<div class="row" >
+  <div class="col-md-3 py-3 py-md-0">
+    <div class="card ">
+      <img src="images/smart phone/img1.png"  alt="">
+      <div class="card-body">
+        <h3 class="text-center">Iphone </h3>
+        <p class="text-center"> Apple iPhone 15 Max Mobile .</p>
+        <div class="star text-center">
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+        </div>
+        <h2>PKR:65,000 <span><a href="" data-id="1"><li class="fa-solid fa-cart-shopping add-to-cart"></li></a></span></h2>
+      </div>
+      <div class="card-button4">
+        <button class="btn btn-outline-warning custom-d"><a href="smart.html">View More</a></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-3 py-3 py-md-0">
+    <div class="card">
+      <img src="images/laptop/img1.webp"  alt="">
+      <div class="card-body">
+        <h3 class="text-center" > Laptop</h3>
+        <p class="text-center"> Chromebook 11 G5 EE 11.6 Inch </p>
+        <div class="star text-center">
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+        </div>
+        <h2>PKR:70,000 <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+      </div>
+      <div class="card-button4">
+        <button class="btn btn-outline-warning custom-d"><a href="laptop.html">View More</a></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-3 py-3 py-md-0">
+    <div class="card">
+      <img src="images/cameras/img1.jpg"  alt="">
+      <div class="card-body">
+        <h3 class="text-center"> Camera</h3>
+        <p class="text-center">DSC-WX300  Digital Camera.  </p>
+        <div class="star text-center">
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+        </div>
+        <h2>PKR:8,000 <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+      </div>
+      <div class="card-button4">
+        <button class="btn btn-outline-warning custom-d"><a href="camera.html">View More</a></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-3 py-3 py-md-0">
+    <div class="card">
+      <img src="images/airpods/img1.jpg"  alt="">
+      <div class="card-body">
+        <h3 class="text-center"> Airpords</h3>
+        <p class="text-center"> AirPods Pro 1 Year  Warranty.</p>
+        <div class="star text-center">
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+        </div>
+        <h2>PKR:3,500 <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+      </div>
+      <div class="card-button4">
+        <button class="btn btn-outline-warning custom-d"><a href="airpods.html">View More</a></button>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<!-- line2 -->
+<div class="row">
+  <div class="col-md-3 py-3 py-md-0">
+    <div class="card">
+      <img src="images/smart watches/img1.png"  alt="">
+      <div class="card-body">
+        <h3 class="text-center"> Smart Watch</h3>
+        <p class="text-center">Smart Watches T800 Ultra.</p>
+        <div class="star text-center">
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+        </div>
+        <h2>PKR:5,000 <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+      </div>
+      <div class="card-button4">
+        <button class="btn btn-outline-warning custom-d"><a href="watch.html">View More</a></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-3 py-3 py-md-0">
+    <div class="card">
+      <img src="images/head phones/img1.jpg"   alt="">
+      <div class="card-body">
+        <h3 class="text-center"> Headphone</h3>
+        <p class="text-center">gaming headphones RGB. </p>
+        <div class="star text-center">
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+        </div>
+        <h2>PKR:3,000 <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+      </div>
+      <div class="card-button4">
+        <button class="btn btn-outline-warning custom-d"><a href="headphone.html">View More</a></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-3 py-3 py-md-0">
+    <div class="card">
+      <img src="images/pc/img1.webp"  alt="">
+      <div class="card-body">
+        <h3 class="text-center">Gaming Pc</h3>
+        <p class="text-center">iBUYPOWER Pro Gaming PC .</p>
+        <div class="star text-center">
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+        </div>
+        <h2>PKR:35,000 <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+      </div>
+      <div class="card-button4">
+        <button class="btn btn-outline-warning  custom-d"><a href="pc.html">View More</a></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-3 py-3 py-md-0">
+    <div class="card">
+      <img src="images/tv/img1.jpg" style="height: px;" alt="">
+      <div class="card-body">
+        <h3 class="text-center"> Gaming LCD</h3>
+        <p class="text-center"> Borderless Gaming LCD .</p>
+        <div class="star text-center">
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+        </div>
+        <h2>PKR:40,000 <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+      </div>
+      <div class="card-button4">
+        <button class="btn btn-outline-warning  custom-d"><a href="monitor.html">View More</a></button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+</div>
+<!-- product cards end  -->
+
+<!-- other cards -->
+<div class="container" id="other-cards">
+  <div class="row">
+    <div class="col-md-6 ">
+      <div class="card d-flex flex-row">
+        <div class="card-img">
+        <img src="images/laptop/img6.jpg" class="img-fluid " alt="">
+      </div>
+        <div class="card-content">
+          <h3>Best Laptop</h3>
+          <h5>Latest Collection</h5>
+          <p>Up To 50% off</p>
+          <button id="shopnow"><a href="laptop.html">Shop Now</a></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 ">
+      <div class="card d-flex flex-row">
+        <div class="card-img" >
+        <img src="images/head phones/img1.jpg"   alt="" class="img-fluid">
+      </div>
+        <div class="card-content">
+          <h3>Headphones</h3>
+          <h5>Latest Collection</h5>
+          <p>Up To 50% off</p>
+          <button id="shopnow"><a href="headphone.html">Shop Now</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- other cards end -->
+
+<!-- banner  -->
+
+<section class="banner">
+  <div class="content">
+    <h1><span>Electronic Gadget</span>
+    <br>
+    Up To <span id="span2">50%</span>Off
+    </h1>
+    <p>"Welcome to Cheery Electronics! Explore our curated collection of top-quality electronics, designed to elevate your lifestyle. From state-of-the-art gadgets to everyday essentials, find everything you need to stay connected and entertained. Shop now and experience the difference with Cheery Electronics!"
+    </p>
+  <div class="btn"><button>Shop Now</button></div>
+  </div>
+  
+  <div class="img">
+    <img src="images/background/last.jpg" alt="">
+  </div>
+  </section>
+
+<!-- end banner -->
+
+
+<!-- product cards -->
+<div class="container" id="product-cards">
+<div class="row" >
+  <div class="col-md-3 py-3 py-md-0">
+    <div class="card">
+      <img src="/images/machine/img1.jpg"  alt="">
+      <div class="card-body">
+        <h3 class="text-center">LG</h3>
+        <p class="text-center"> Top Load Fully Automatic Machine.</p>
+        <div class="star text-center">
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+        </div>
+        <h2>PKR:55,000 <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+      </div>
+      <div class="card-button4">
+        <button class="btn btn-outline-warning  custom-d"><a href="washing.html">View More</a></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-3 py-3 py-md-0">
+    <div class="card">
+      <img src="images/ac/img2.webp"  alt="">
+      <div class="card-body">
+        <h3 class="text-center" >Haier</h3>
+        <p class="text-center">Haier 2 Ton AC Turbo Cool 47 %.</p>
+        <div class="star text-center">
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+        </div>
+        <h2>PKR:50,000 <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+      </div>
+      <div class="card-button4">
+        <button class="btn btn-outline-warning  custom-d"><a href="ac.html">View More</a></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-3 py-3 py-md-0">
+    <div class="card">
+      <img src="images/juicer/img2.jpg"  alt="">
+      <div class="card-body">
+        <h3 class="text-center">Chaina</h3>
+        <p class="text-center">USB Chargeable Juicer  Blender.</p>
+        <div class="star text-center">
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+        </div>
+        <h2>PKR:3,500 <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+      </div>
+      <div class="card-button4">
+        <button class="btn btn-outline-warning  custom-d"><a href="juicer.html">View More</a></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-3 py-3 py-md-0">
+    <div class="card">
+      <img src="images/microwave/img1.jpg"  alt="">
+      <div class="card-body">
+        <h3 class="text-center">Dawlance</h3>
+        <p class="text-center">30 liters Microwave Oven Cooking.</p>
+        <div class="star text-center">
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+        </div>
+        <h2>PKR:12,500 <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+      </div>
+      <div class="card-button4">
+        <button class="btn btn-outline-warning  custom-d"><a href="microwave.html">View More</a></button>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+
+<div class="row" >
+  <div class="col-md-3 py-3 py-md-0">
+    <div class="card">
+      <img src="images/mouse/img1.webp" alt="">
+      <div class="card-body">
+        <h3 class="text-center"> Mouse</h3>
+        <p class="text-center">X8 Super Quiet Wireless Mouse.</p>
+        <div class="star text-center">
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+        </div>
+        <h2>PKR:2,000 <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+      </div>
+      <div class="card-button4">
+        <button class="btn btn-outline-warning  custom-d"><a href="mouse.html">View More</a></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-3 py-3 py-md-0">
+    <div class="card">
+      <img src="images/joystick/img1.jpg"  alt="">
+      <div class="card-body">
+        <h3 class="text-center" >Joysticks</h3>
+        <p class="text-center">Wired Game Controller  Joystick  .</p>
+        <div class="star text-center">
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+        </div>
+        <h2>PKR:4,000 <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+      </div>
+      <div class="card-button4">
+        <button class="btn btn-outline-warning  custom-d"><a href="joystick.html">View More</a></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-3 py-3 py-md-0">
+    <div class="card">
+      <img src="images/cd/img1.jpg"  alt="">
+      <div class="card-body">
+        <h3 class="text-center">CD Player</h3>
+        <p class="text-center">Wall Mountable CD Player  Upgraded .</p>
+        <div class="star text-center">
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+        </div>
+        <h2>PKR:3,000 <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+      </div>
+      <div class="card-button4">
+        <button class="btn btn-outline-warning  custom-d"><a href="cd.html">View More</a></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-3 py-3 py-md-0">
+    <div class="card">
+      <img src="images/tv/img2.jpg"  alt="">
+      <div class="card-body">
+        <h3 class="text-center">Moniter</h3>
+        <p class="text-center"> LCD Monitor For Pc 22 Inches IPS.</p>
+        <div class="star text-center">
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+        </div>
+        <h2>PKR:13,500 <span><li class="fa-solid fa-cart-shopping"></li></span></h2>
+      </div>
+      <div class="card-button4">
+        <button class="btn btn-outline-warning  custom-d"><a href="monitor.html">View More</a></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+<!-- product cards -->
+
+
+
+<!-- other cards -->
+<div class="container" id="other">
+  <div class="row">
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card custom-scale">
+        <img src="images/background/home3.jpg" alt="">
+        <div class="card-img-overlay">
+<h4>Home gadget </h4>
+<p>latest collection up to 50% off</p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card custom-scale">
+        <img src="/images/background/home4.jpg"  alt="">
+        <div class="card-img-overlay">
+<h4>Gaming gadget </h4>
+<p>latest collection up to 50% off</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card custom-scale">
+        <img src="/images/background/home 5.avif" alt="">
+        <div class="card-img-overlay">
+<h4>Electronic gadget </h4>
+<p>latest collection up to 50% off</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- other cards -->
+
+<!-- offer -->
+<div class="container" id="offer">
+<div class="row">
+  <div class="col-md-3 py-3 py-md-0" >
+    <i class="fa-solid fa-cart-shopping"></i>
+    <h3>Free Shopping</h3>
+    <p>On order over 10,000</p>
+  </div>
+
+  <div class="col-md-3 py-3 py-md-0" >
+    <i class="fa-solid fa-rotate"></i>
+    <h3>Free Returns</h3>
+    <p>On order over 10,000</p>
+  </div>
+
+  <div class="col-md-3 py-3 py-md-0" >
+    <i class="fa-solid fa-truck"></i>
+    <h3>Free Shopping</h3>
+    <p>On order over 10,000</p>
+  </div>
+
+  <div class="col-md-3 py-3 py-md-0" >
+    <i class="fa-solid fa-thumbs-up"></i>
+    <h3>Free Shopping</h3>
+    <p>On order over 10,000</p>
+  </div>
+</div>
+</div>
+<!-- offer -->
+
+
+
+<!-- newslater -->
+<form action="https://muhammadhasanali021@gmail.com" method="POST">
+<div class="container" id="newslater">
+<h3 class="text-center">Subscribe To the Electronic Shop For Latest Upload.</h3>
+<div class="input text-center">
+<input type="text" placeholder="Enter your Email.." name="email" required >
+<button id="Subscribe">Submit</button>
+<input type="hidden" name="_captcha" value="false">
+</div>
+</div>
+</form>
+<!-- newslater -->
+
+
+
+<!-- footer -->
+<div class=" pt-4" >
+
+  <!-- Footer -->
+  <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: rgb(67, 0, 86);"
+          >
+    <!-- Section: Social media -->
+    <section
+             class="d-flex justify-content-between p-4"
+             style="background-color: rgb(67, 0, 86);"
+             >
+      <!-- Left -->
+      <div class="me-5">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="https://www.facebook.com/help/668969529866328/?helpref=uf_share" class="text-white me-4">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section >
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="" style="background-color: rgb(67, 0, 86);">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold">Company name</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              Here you can use rows and columns to organize your footer
+              content. Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Products</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="mouse.html" class="text-white">gaming Mouse</a>
+            </p>
+            <p>
+              <a href="pc.html" class="text-white">Gaming Pc</a>
+            </p>
+            <p>
+              <a href="lcd.html" class="text-white">Gaming LCD</a>
+            </p>
+            <p>
+              <a href="joy.html" class="text-white">Joystick</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Useful links</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="index.html" class="text-white">Home</a>
+            </p>
+            <p>
+              <a href="about.html" class="text-white">About Us</a>
+            </p>
+            <p>
+              <a href="product.html" class="text-white">Products</a>
+            </p>
+            <p>
+              <a href="contact.html" class="text-white">Contact Us</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Contact</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+            <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
+            <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/"
+         >MDBootstrap.com</a
+        >
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+</div>
+  <!-- Footer -->
+  <button class="btn10" id="scroll_btn"><i class="fa-solid fa-arrow-up-long"></i></button>
+
+
+
+
+  <script>
+    // scroll 
+  const btn = document.querySelector('#scroll_btn');
+
+window.addEventListener('scroll' , ()=>{
+if(window.pageYOffset > 300){
+    btn.style.display = 'block'
+}
+else{
+    btn.style.display = 'none';
+}
+});
+
+btn.addEventListener('click' , ()=>{
+   window.scrollTo({
+    top:0,
+    behavior:"smooth"
+   })
+});
+// scroll
+
+
+</script>
+
+<script src="js/cart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
